@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+   }
+   
+   body {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   nav {
+    display: flex;
+   justify-content: row;
+   margin-top: 5%;
+   background: rgb(132, 127, 127);
+   }  
+
+   button {
+       width: 150px;
+       margin: 15px;
+       padding: 5px;
+       font-size; 100%;
+       color: black;
+       background-color: white;
+       border: 4px solid black;
+       text-align: row;
+       align-items: flex-start;
+       cursor: :default;
+   }
+
+   .header {
+       padding: 40px;
+       text-align: right;
+       background-color: black;
+       color: white;
+   }
+
+   section {
+       width: 70%;
+       margin: 25px auto;
+       background-color: black;
+       display: block;
+   }
+
+   .example-box {
+       padding: 25px 40px;
+       display: block;
+       color: white;
+   }
+   
+   main {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   img {
+       max-width: 50%;
+       height: auto;
+   }
+   
+   .Hero { 
+       height: 100%;
+       width: auto;
+       margin-bottom: 25px;
+       background-position: center;
+   }
+   
+   .footer {
+       padding: 30px;
+       clear:both;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+   
+   }
+   
+   .footer h1 {
+       font-size: 20px;
+   }
+   
+   /*This need edititng still, add nav, header, jason.sample.img.
+   
+   /* Tablets - header changes color */
+   @media screen and (max-width: 992px) {
+       header {
+         background: auto;
+       }
+     }
+     
+     /* Large smartphones - navbar changes color */
+     @media screen and (max-width: 768px) {
+       nav {
+         background-color: auto;
+       }
+     }
+     
+     /* Small smartphones - image placeholders change color */
+     @media screen and (max-width: 576px) {
+       .sample-img {
+         background-color: auto;
+       }
+     }
